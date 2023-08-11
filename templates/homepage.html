@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Equation Solver</title>
+    <style>
+        body {
+            background-image: url("static\\background_images\\IMG-20230413-WA0000.jpg");
+            background-size: cover;
+        }
+        .upload-image{
+            position: absolute;
+            top: 325px;
+            left:369px;
+            width: 119px;
+            height: 32px;
+            color: white;
+            background-color: blue;
+        }
+        .canvas-board{
+            position: absolute;
+            top: 325px;
+            left:808px;
+            width: 119px;
+            height: 32px;
+            color: white;
+            background-color: green;
+        }
+        .tag-line1{
+            font-size: 67px;
+            position: absolute;
+            left: 272px;
+            top: 87px;
+            text-align: justify; 
+            color: orange;
+            border: white;
+            text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+        }
+
+        .tag-line2{
+            font-size: 67px;
+            position: absolute;
+            left: 435px;
+            top: 144px;
+            text-align: justify; 
+            color: orange;
+            border: white;
+            text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+        }
+        </style>
+        
+</head>
+<body>
+
+   
+        <div class="tag-line1">
+            <P>Handwritten Mathematical </P>
+        </div>
+        <div class="tag-line2">
+            <P>Equation Solver</P>
+        </div>
+
+    <form action="{{ url_for('upload_image') }}" method="POST">
+        <button id="abc" class="upload-image">Upload Image</button>
+        
+    </form>
+    <form action="{{ url_for('canvas_image') }}" method="POST">
+        <button id="xyz" class="canvas-board">Canvas Board</button>
+    </form>
+</body>
+</html>
