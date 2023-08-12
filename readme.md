@@ -7,10 +7,10 @@ I have used dataset from [kaggle](https://www.kaggle.com/datasets/xainano/handwr
 ## Training & Testing Steps
 Once you've downloaded the dataset from kaggle, you have to create **extracted_images** folder in the project directory and move all the symbols folder in the folder that we just created. Now you are done with setting up files and folder for training. Let's start with training:-    
 1. Open **train classifier.ipynb** file.
-2. Check 3rd cell, there you've variable to set the path of training data folder.![Alt text](set_path.PNG)
+2. Check 3rd cell, there you've variable to set the path of training data folder.<img width="400" alt="Sample image of output" src="set_path.PNG" />
 3. In the 7th cell, our main **Convolutional Neural Network** is defined, which you can modify as per your knowldge to increase the accuracy of the model.
 4.Run some more cells and start the training of model. Soon, you'll get the trained model.
-5. Perform testing on equation image and check the result. 
+1. Perform testing on equation image and check the result. 
 
 Parameters that I considered are :- 
 1. batch_size = 5
@@ -30,26 +30,27 @@ Note : Change this as per your convenience
 
 ## More information about this custom project
 You can even write your equation on the canvas board. Once you run the **app.py** script. You'll get the chance to select option either to upload image or canvas board. You can select either of them. Check the image attached below to get the idea about it.
-![Alt text](Home_Page.PNG)
+
+<img width="400" alt="Sample image of output" src="Home_Page.PNG" />
 
 
 # Let's see some results
 
 1. Exponent of the written numbers.
    
-   ![Alt text](Outputs/Calculate_Exponent_Canvas.PNG)
+   <img width="400" alt="Sample image of output" src="Outputs/Calculate_Exponent_Canvas.PNG" />
 
 2. Linear equation written on canvas board.
    
-   ![Alt text](Outputs/Canvas_Output.PNG)
+   <img width="400" alt="Sample image of output" src="Outputs/Canvas_Output.PNG" />
 
 3. Image uploaded having linear equation.  
 
-    ![Alt text](Outputs/Linear_Equation.PNG)
+    <img width="400" alt="Sample image of output" src="Outputs/Linear_Equation.PNG" />
 
 4. Finding the value of trigonometric function.
 
-    ![Alt text](Outputs/Predict_Trigonometrical_Equation.PNG)
+    <img width="400" alt="Sample image of output" src="Outputs/Predict_Trigonometrical_Equation.PNG" />
 
 
-**Thank you for your time.**
+**Thank you for your time!**
