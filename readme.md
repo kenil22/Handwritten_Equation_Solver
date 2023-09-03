@@ -7,7 +7,7 @@ I have used dataset from [kaggle](https://www.kaggle.com/datasets/xainano/handwr
 ## Training & Testing Steps
 Once you've downloaded the dataset from kaggle, you have to create **extracted_images** folder in the project directory and move all the symbols folder in the folder that we just created. Now you are done with setting up files and folder for training. Let's start with training:-    
 1. Open **train classifier.ipynb** file.
-2. Check 3rd cell, there you've variable to set the path of training data folder.<img width="400" alt="Sample image of output" src="set_path.PNG" />
+2. Check 3rd cell, there you've variable to set the path of training data folder.<img src="https://github.com/kenil22/Handwritten_Equation_Solver/assets/73990461/6d1fa33b-4e09-4f4b-9423-f2c40175620c" width="200" alt="set_path">
 3. In the 7th cell, our main **Convolutional Neural Network** is defined, which you can modify as per your knowldge to increase the accuracy of the model.
 4.Run some more cells and start the training of model. Soon, you'll get the trained model.
 1. Perform testing on equation image and check the result. 
@@ -38,19 +38,19 @@ You can even write your equation on the canvas board. Once you run the **app.py*
 
 1. Exponent of the written numbers.
    
-   <img width="400" alt="Sample image of output" src="Outputs/Calculate_Exponent_Canvas.PNG" />
+   <img src="https://github.com/kenil22/Handwritten_Equation_Solver/assets/73990461/832613bf-b61b-47a8-9fe1-55197e65532c" width="200" alt="Calculate_Exponent_Canvas">
 
 2. Linear equation written on canvas board.
    
-   <img width="400" alt="Sample image of output" src="Outputs/Canvas_Output.PNG" />
+   <img src="https://github.com/kenil22/Handwritten_Equation_Solver/assets/73990461/22f979e2-48a3-4b82-aacb-f6d721680a07" width="200" alt="Canvas_Output">
 
 3. Image uploaded having linear equation.  
 
-    <img width="400" alt="Sample image of output" src="Outputs/Linear_Equation.PNG" />
+    <img src="https://github.com/kenil22/Handwritten_Equation_Solver/assets/73990461/24044630-e630-4342-b8ef-3e2a756b3c87" width="200" alt="Linear_Equation">
 
 4. Finding the value of trigonometric function.
 
-    <img width="400" alt="Sample image of output" src="Outputs/Predict_Trigonometrical_Equation.PNG" />
+    <img src="https://github.com/kenil22/Handwritten_Equation_Solver/assets/73990461/b4ebd82a-214e-4dc3-8131-88f8a07c554f" width="200" alt="Predict_Trigonometrical_Equation">
 
 
 **Thank you for your time!**
