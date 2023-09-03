@@ -31,7 +31,7 @@ Note : Change this as per your convenience
 ## More information about this custom project
 You can even write your equation on the canvas board. Once you run the **app.py** script. You'll get the chance to select option either to upload image or canvas board. You can select either of them. Check the image attached below to get the idea about it.
 
-<img src="![Home_Page](https://github.com/kenil22/Handwritten_Equation_Solver/assets/73990461/64d34aa3-3629-47c3-a418-b46c94a5cb35)" width="200" alt="Home_Page">
+<img src="https://github.com/kenil22/Handwritten_Equation_Solver/assets/73990461/64d34aa3-3629-47c3-a418-b46c94a5cb35" width="200" alt="Home_Page">
 
 
 # Let's see some results
